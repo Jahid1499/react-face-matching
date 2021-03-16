@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #ddd;
+}
+.navigation{
+    background: #ffffff;
+    border-bottom: 1px solid #ddd;
+}
+
+.main-section{
+    background: #fff;
+    height: auto;
+}
+
+.loader-size{
+    width: 100px;
+    height: 100px;
+}
+
+.LoadingOverlay {
+    background: rgba(0, 0, 0, 0.8);
+    display: block;
+    position: fixed;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 500;
+    right: 0;
+    bottom: 0;
+}
+
+.center-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.CircularProgressbar{
+    width: 45%;
+    margin: 2%;
+}
